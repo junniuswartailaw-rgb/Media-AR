@@ -1,0 +1,10 @@
+# Dipakai Netlify dan Cloudflare Pages. Platform lain bisa mengabaikannya.
+/*
+  Permissions-Policy: camera=(self), accelerometer=(self), gyroscope=(self), magnetometer=(self), xr-spatial-tracking=(self)
+  X-Content-Type-Options: nosniff
+/service-worker.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/manifest.json
+  Content-Type: application/manifest+json
